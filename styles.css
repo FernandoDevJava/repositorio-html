@@ -9,8 +9,9 @@
 body {
     background-color: #22212C;
     color: #837E9F;
-    font-family: Merriweather Sans;       
+    font-family: Merriweather Sans;
 }
+
 .grid-left {
     display: grid;
     row-gap: 30px;
@@ -19,24 +20,24 @@ body {
     margin-left: 40px;
 }
 
-.grid-foto {    
+.grid-foto {
     width: 348px;
-    height: 292px;    
+    height: 292px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;   
+    flex-direction: column;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;    
+    border-radius: 20px;
 
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 11px;
     line-height: 29px;
-    text-align: center;    
+    text-align: center;
 }
 
 
@@ -48,16 +49,19 @@ body {
     top: 72px;
 
     background: url(foto.png);
-    
+
     border-radius: 100%;
 }
+
 .grid-foto p {
     font-size: 15px;
     margin-top: 10px;
 }
+
 .grid-foto h1 {
     margin-top: 15px;
 }
+
 .grid-foto a {
     font-size: 15px;
     color: #837E9F;
@@ -65,22 +69,22 @@ body {
 
 .grid-links {
     width: 348px;
-    height: 250px;    
+    height: 250px;
     display: flex;
     align-items: left;
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;    
+    border-radius: 20px;
 
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 11px;
     line-height: 29px;
-    text-align: left;  
+    text-align: left;
 }
 
 .grid-links a {
@@ -88,29 +92,31 @@ body {
     color: #837E9F;
     text-align: left;
 }
+
 .grid-links p {
     font-size: 15px;
 }
 
-.line {     
+.line {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
     width: 50%;
 }
-.line div {   
+
+.line div {
     width: 50%;
 }
 
 .line div img {
-    padding-left: 10px;    
+    padding-left: 10px;
     height: 50px;
 }
 
 .grid-con {
     width: 348px;
-    height: 300px;    
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,19 +125,19 @@ body {
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;    
+    border-radius: 20px;
 
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 11px;
     line-height: 29px;
-    text-align: left;    
+    text-align: left;
 }
 
-.header {    
+.header {
     padding: 30px;
-    text-align: left;
+    text-align: center;
 }
 
 .grid-content {
@@ -139,21 +145,21 @@ body {
     grid-template-columns: 1fr 1fr;
     row-gap: 10px;
     column-gap: 10px;
+    text-align: center;
 }
 
 .grid-con p {
-    padding-left: 20px;
     border: solid 1px;
-    display: flex;   
+    display: flex;
     flex-direction: column;
     width: 150px;
     border-width: 4px;
-    border-radius: 50px;    
+    border-radius: 50px;
 }
 
 .grid-cursos {
     width: 348px;
-    height: 300px;    
+    height: 330px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,19 +168,105 @@ body {
 
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;    
+    border-radius: 20px;
 
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 11px;
     line-height: 29px;
-    text-align: left;  
+    text-align: left;
 }
 
 .grid-conteudo {
     display: flex;
     flex-direction: column;
-    
-    border: solid 1px;
+    padding-right: 120px;
+}
+
+.titulo-cursos {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.grid-input {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+form {
+    border-radius: 10px;
+}
+
+form input {
+    font-size: 40px;
+    border: none;
+    background-color: #302F3D;
+    color: #837E9F;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form button {
+    background-color: #302F3D;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #837E9F;
+    padding-left: 350px;
+    align-items: center;
+}
+
+.grid-projetos {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 448px;
+    top: 157px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.grid-projetos h2 {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 7px;    
+    color: #837E9F;
+}
+.grid-projetos a {
+    color: #837E9F;
+}
+
+.P {
+    display: flex;
+    justify-content: space-between;    
+    height: 30px;
+    padding-top: 3px;    
+
+}
+
+.img-react {    
+    width: 30px;
+    padding-left: 0px;
+    height: 30px;    
+}
+.border {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+pre {
+    font-family: Merriweather Sans;
+    font-size: 14px;    
+    padding: 1px;
 }
